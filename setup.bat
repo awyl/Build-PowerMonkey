@@ -41,9 +41,11 @@ tar -xf nasm.zip --strip-components=1 -C %cd%\nasm
 REM Download shell.efi
 mkdir EFI
 cd EFI
+mkdir Boot
 curl -L https://github.com/tianocore/edk2/raw/UDK2018/ShellBinPkg/UefiShell/X64/Shell.efi --output shellx64.efi
 echo fs0:\EFI\Boot\PowerMonkey.efi > startup.nsh
 echo fs0:\EFI\Microsoft\Boot\bootmgfw.efi >> startup.nsh
+cd ..
 cd ..
 
 REM Build EDK2 tools

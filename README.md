@@ -1,9 +1,17 @@
 # Build PowerMonkey
- 
- These scripts are created to ease the so many steps to build [PowerMonkey](https://github.com/psyq321/PowerMonkey).  If you do not understand what you are doing, you probably shouldn't be running this.  Read about EFI and boot process.  PowerMonkey github has a good explanation.
 
+***
+**All credit goes to respective developers of the software used.**
+***
 ## <u>DISCLAIMER</u>  
 I merely provide you a script to build PowerMoney EFI because it is not the easiest task.  Using these EFI binaries are potentially dangerous and could damage your computer.  I am not responsible for any damages that might cause.  Use at your own risk.
+
+***
+
+A [blog post](https://mreggtart.com/posts/undervolting-windows-11-powermonkey) is written for this repository.
+
+These scripts are created to ease the so many steps to build [PowerMonkey](https://github.com/psyq321/PowerMonkey).  If you do not understand what you are doing, you probably shouldn't be running this.  Read about EFI and boot process.  PowerMonkey github has a good explanation.
+
 
 ## Software Used
 - https://github.com/tianocore/edk2 stable202108
@@ -46,5 +54,5 @@ Copy the content of `EFI` folder to the folder of same name in your EFI partitio
 
 Reboot your computer and go into BIOS.
 - Turn off `Secure Boot`
-- Change the boot file to `EFI\shellx64.efi`.
+- Change the boot file to `EFI\Boot\shellx64.efi`.
 
