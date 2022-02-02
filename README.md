@@ -48,7 +48,7 @@ build.bat
 ```
 
 ### Step 5
-Copy the content of `EFI` folder to the folder of same name in your EFI partition.  You can also copy the folder to an FAT32 formatted usb stick. If you use usb stick, you should replace `fs0` in `startup.nsh` to `fs1`.
+Copy the content of `EFI` folder to the folder of same name in your EFI partition.  You can also copy the folder to an FAT32 formatted usb stick.
 
 ### Step 6
 
