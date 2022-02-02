@@ -42,6 +42,7 @@ REM Download shell.efi
 mkdir EFI
 cd EFI
 mkdir Boot
+cd Boot
 curl -L https://github.com/tianocore/edk2/raw/UDK2018/ShellBinPkg/UefiShell/X64/Shell.efi --output shellx64.efi
 echo fs0:\EFI\Boot\PowerMonkey.efi > startup.nsh
 echo fs0:\EFI\Microsoft\Boot\bootmgfw.efi >> startup.nsh
