@@ -23,10 +23,10 @@ These scripts are created to ease the so many steps to build [PowerMonkey](https
 
 ### Prerequisite
 1. Windows 10 build 17063 and newer
-2. Visual Studio 2019, with C++ workload installed.
+2. Visual Studio 2022, with C++ workload installed.
 
 ### Step 1
-In a command prompt,
+In a command prompt (Use `x64 Native Tools Command Prompt for VS 2022` to get builds working),
 ```
 git clone https://github.com/awyl/Build-PowerMonkey.git
 ```
